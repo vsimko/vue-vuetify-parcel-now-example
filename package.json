@@ -1,7 +1,10 @@
 {
-  "name": "vue-parcel-test",
+  "name": "vue-parcel-example",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": {
+    "name": "Viliam Simko",
+    "email": "viliam.simko@gmail.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@mdi/font": "^4.4.95",
