@@ -1,35 +1,24 @@
 <template>
   <v-app>
-    <v-app-bar color="indigo" app dark>
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
-      <v-toolbar-title>Page title</v-toolbar-title>
-
-      <div class="flex-grow-1"></div>
-
-      <v-btn icon>
-        <v-icon>mdi-heart</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-    </v-app-bar>
+    <Toolbar></Toolbar>
     <v-content>
       <v-container>
-        <h1>{{ message }}</h1>
+        <Demo2></Demo2>
+        <Demo1></Demo1>
       </v-container>
     </v-content>
+    <Footer></Footer>
   </v-app>
 </template>
 
 <script>
+import Toolbar from "./Toolbar";
+import Footer from "./Footer";
+import Demo1 from "./Demo1";
+import Demo2 from "./Demo2";
+
 export default {
   name: "App",
-  data() {
-    return {
-      message: "Using Parcel In A Vue.js App"
-    };
-  }
+  components: { Toolbar, Footer, Demo1, Demo2 },
 };
 </script>
