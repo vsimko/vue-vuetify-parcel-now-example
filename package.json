@@ -1,0 +1,28 @@
+{
+  "name": "vue-parcel-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@mdi/font": "^4.4.95",
+    "@vue/component-compiler-utils": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "rimraf": "^3.0.0",
+    "sass": "^1.23.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify": "^2.1.1",
+    "parcel-bundler": "1.12.3"
+  },
+  "scripts": {
+    "clean": "rimraf dist/ .cache/",
+    "dev": "parcel index.html",
+    "build": "parcel build --no-source-maps index.html",
+    "watch": "parcel watch --no-source-maps index.html",
+    "serve": "serve dist",
+    "now-dev": "parcel -p $PORT index.html"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.4"
+  }
+}
