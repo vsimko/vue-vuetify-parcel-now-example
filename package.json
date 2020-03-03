@@ -10,12 +10,13 @@
     "@mdi/font": "^4.9.95",
     "@vue/component-compiler-utils": "^3.1.1",
     "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
     "rimraf": "^3.0.2",
     "sass": "^1.26.2",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11",
     "vuetify": "^2.2.15",
-    "parcel-bundler": "^1.12.4"
+    "@mdi/js": "^4.9.95"
   },
   "scripts": {
     "clean": "rimraf dist/ .cache/",
