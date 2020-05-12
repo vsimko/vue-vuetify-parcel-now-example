@@ -1,22 +1,26 @@
 {
   "name": "vue-parcel-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Viliam Simko",
     "email": "viliam.simko@gmail.com"
   },
   "license": "MIT",
   "devDependencies": {
-    "@mdi/font": "^4.9.95",
-    "@vue/component-compiler-utils": "^3.1.1",
+    "@mdi/font": "^5.1.45",
+    "@vue/component-compiler-utils": "^3.1.2",
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
     "rimraf": "^3.0.2",
-    "sass": "^1.26.2",
+    "sass": "^1.26.5",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11",
-    "vuetify": "^2.2.15",
-    "@mdi/js": "^4.9.95"
+    "vuetify": "^2.2.27",
+    "@mdi/js": "^5.1.45"
+  },
+  "resolutions": {
+    "minimist": "1.2.3",
+    "acorn": "6.4.1"
   },
   "scripts": {
     "clean": "rimraf dist/ .cache/",
